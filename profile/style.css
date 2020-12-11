@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    background-color:#ffffff;
+    font-family:'Dancing Script';
+    text-align: center;
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url('./images/code.jpg');
+    opacity: 0.5;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    /* overflow: hidden; */
+    overflow: auto;
+}
+
+img{
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    line-height: 1.5;
+    margin: 10px;
+    font-weight: bold;
+}
+
+p{
+    color:white;
+    font-family: 'Open-Sans';
+    line-height: 1.5;
+    margin: 30px;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.introduction {
+    background-color:#484848;
+    border: 1px  ;
+    padding: 24px;
+    margin: 50px 400px;
+    border-radius: 20px ;
+    box-shadow: 0 5px 15px lightgrey;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.languages{
+    background-color:#484848;
+    border: 1px  ;
+    padding: 24px;
+    margin: 50px 400px;
+    border-radius: 10px ;
+    box-shadow: 0 5px 15px lightgrey;
+    opacity: 0.8;
+}
+
+.languages-inline{
+    color: white;
+    font-family: 'Open-Sans';
+    line-height: 1.5;
+}
+
+.languages ul{
+    padding-left: 0;
+}
+
+.languages li {
+    list-style: none;
+}
+
+.contact{
+    background-color:#484848;
+    border: 1px  ;
+    padding: 24px;
+    margin: 50px 400px;
+    border-radius: 10px ;
+    box-shadow: 0 5px 15px lightgrey;
+    opacity: 0.8;
+}
+
+.list-inline{
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li{
+    display: inline-block;
+}
+
+.fab{
+    font-size: 50px;
+    color: white;
+    margin:8px 8px;
+}
+
+.icon:hover{
+    color: black;
+}
+
+.btn-primary:hover{
+    color: white;
+}
+
+@media (max-width: 960px) {
+     .container {
+        width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+}
